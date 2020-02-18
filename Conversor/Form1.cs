@@ -10,8 +10,7 @@ using System.Windows.Forms;
 
 namespace Conversor
 {
-    public partial class Form1 : Form
-        
+    public partial class Form1 : Form   
     {
         public Form1()
         {
@@ -84,8 +83,6 @@ namespace Conversor
             }
         }
 
-
-
         private void Form1_Load(object sender, EventArgs e)
         {
             cboLongitudDE.SelectedIndex = 0;
@@ -120,7 +117,5 @@ namespace Conversor
                 MessageBox.Show("Error en la introduccion de Datos", "Conversores", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
-
-
     }
 }
