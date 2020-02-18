@@ -117,8 +117,8 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label4.ForeColor = System.Drawing.Color.Teal;
-            this.label4.Location = new System.Drawing.Point(73, 67);
+            this.label4.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label4.Location = new System.Drawing.Point(228, 33);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(207, 20);
             this.label4.TabIndex = 7;
@@ -128,7 +128,7 @@
             // 
             this.txtValor.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtValor.ForeColor = System.Drawing.Color.Teal;
-            this.txtValor.Location = new System.Drawing.Point(302, 67);
+            this.txtValor.Location = new System.Drawing.Point(185, 73);
             this.txtValor.Name = "txtValor";
             this.txtValor.Size = new System.Drawing.Size(290, 22);
             this.txtValor.TabIndex = 6;
@@ -138,7 +138,7 @@
             // 
             this.lblLongitud.AutoSize = true;
             this.lblLongitud.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblLongitud.ForeColor = System.Drawing.Color.Teal;
+            this.lblLongitud.ForeColor = System.Drawing.Color.RoyalBlue;
             this.lblLongitud.Location = new System.Drawing.Point(85, 261);
             this.lblLongitud.Name = "lblLongitud";
             this.lblLongitud.Size = new System.Drawing.Size(31, 29);
@@ -150,9 +150,9 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button1.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button1.Location = new System.Drawing.Point(496, 162);
+            this.button1.Location = new System.Drawing.Point(290, 178);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(96, 29);
+            this.button1.Size = new System.Drawing.Size(109, 29);
             this.button1.TabIndex = 4;
             this.button1.Text = "Convertir";
             this.button1.UseVisualStyleBackColor = true;
@@ -162,8 +162,8 @@
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label2.ForeColor = System.Drawing.Color.Teal;
-            this.label2.Location = new System.Drawing.Point(297, 166);
+            this.label2.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label2.Location = new System.Drawing.Point(360, 125);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(26, 20);
             this.label2.TabIndex = 3;
@@ -173,8 +173,8 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.ForeColor = System.Drawing.Color.Teal;
-            this.label1.Location = new System.Drawing.Point(79, 166);
+            this.label1.ForeColor = System.Drawing.Color.RoyalBlue;
+            this.label1.Location = new System.Drawing.Point(12, 125);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(37, 20);
             this.label1.TabIndex = 2;
@@ -199,14 +199,15 @@
             "Pie",
             "Pulgada",
             "Varas"});
-            this.cboLongitudA.Location = new System.Drawing.Point(329, 162);
+            this.cboLongitudA.Location = new System.Drawing.Point(364, 148);
             this.cboLongitudA.Name = "cboLongitudA";
-            this.cboLongitudA.Size = new System.Drawing.Size(121, 24);
+            this.cboLongitudA.Size = new System.Drawing.Size(315, 24);
             this.cboLongitudA.TabIndex = 1;
             // 
             // cboLongitudDE
             // 
             this.cboLongitudDE.AllowDrop = true;
+            this.cboLongitudDE.BackColor = System.Drawing.Color.White;
             this.cboLongitudDE.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.cboLongitudDE.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.cboLongitudDE.ForeColor = System.Drawing.Color.RoyalBlue;
@@ -223,9 +224,9 @@
             "Pie",
             "Pulgada",
             "Varas"});
-            this.cboLongitudDE.Location = new System.Drawing.Point(122, 162);
+            this.cboLongitudDE.Location = new System.Drawing.Point(12, 148);
             this.cboLongitudDE.Name = "cboLongitudDE";
-            this.cboLongitudDE.Size = new System.Drawing.Size(121, 24);
+            this.cboLongitudDE.Size = new System.Drawing.Size(315, 24);
             this.cboLongitudDE.TabIndex = 0;
             // 
             // Peso
@@ -251,7 +252,7 @@
             this.label5.AutoSize = true;
             this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label5.ForeColor = System.Drawing.Color.Teal;
-            this.label5.Location = new System.Drawing.Point(62, 60);
+            this.label5.Location = new System.Drawing.Point(250, 38);
             this.label5.Name = "label5";
             this.label5.Size = new System.Drawing.Size(207, 20);
             this.label5.TabIndex = 15;
@@ -261,7 +262,7 @@
             // 
             this.txtpeso.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtpeso.ForeColor = System.Drawing.Color.Teal;
-            this.txtpeso.Location = new System.Drawing.Point(291, 60);
+            this.txtpeso.Location = new System.Drawing.Point(210, 70);
             this.txtpeso.Name = "txtpeso";
             this.txtpeso.Size = new System.Drawing.Size(290, 22);
             this.txtpeso.TabIndex = 14;
@@ -282,10 +283,10 @@
             // 
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button2.Location = new System.Drawing.Point(485, 155);
+            this.button2.ForeColor = System.Drawing.Color.Teal;
+            this.button2.Location = new System.Drawing.Point(291, 167);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(96, 29);
+            this.button2.Size = new System.Drawing.Size(109, 29);
             this.button2.TabIndex = 12;
             this.button2.Text = "Convertir";
             this.button2.UseVisualStyleBackColor = true;
@@ -296,7 +297,7 @@
             this.label7.AutoSize = true;
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.ForeColor = System.Drawing.Color.Teal;
-            this.label7.Location = new System.Drawing.Point(286, 159);
+            this.label7.Location = new System.Drawing.Point(372, 114);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(26, 20);
             this.label7.TabIndex = 11;
@@ -307,7 +308,7 @@
             this.label8.AutoSize = true;
             this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label8.ForeColor = System.Drawing.Color.Teal;
-            this.label8.Location = new System.Drawing.Point(68, 159);
+            this.label8.Location = new System.Drawing.Point(6, 114);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(37, 20);
             this.label8.TabIndex = 10;
@@ -331,9 +332,9 @@
             "Stone",
             "Libra",
             "Onza"});
-            this.cboPesoA.Location = new System.Drawing.Point(318, 155);
+            this.cboPesoA.Location = new System.Drawing.Point(364, 137);
             this.cboPesoA.Name = "cboPesoA";
-            this.cboPesoA.Size = new System.Drawing.Size(121, 24);
+            this.cboPesoA.Size = new System.Drawing.Size(315, 24);
             this.cboPesoA.TabIndex = 9;
             // 
             // cboPesoDe
@@ -354,9 +355,9 @@
             "Stone",
             "Libra",
             "Onza"});
-            this.cboPesoDe.Location = new System.Drawing.Point(111, 155);
+            this.cboPesoDe.Location = new System.Drawing.Point(6, 137);
             this.cboPesoDe.Name = "cboPesoDe";
-            this.cboPesoDe.Size = new System.Drawing.Size(121, 24);
+            this.cboPesoDe.Size = new System.Drawing.Size(315, 24);
             this.cboPesoDe.TabIndex = 8;
             // 
             // Volumen
@@ -380,8 +381,8 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label9.ForeColor = System.Drawing.Color.Teal;
-            this.label9.Location = new System.Drawing.Point(83, 62);
+            this.label9.ForeColor = System.Drawing.Color.MediumPurple;
+            this.label9.Location = new System.Drawing.Point(245, 51);
             this.label9.Name = "label9";
             this.label9.Size = new System.Drawing.Size(207, 20);
             this.label9.TabIndex = 23;
@@ -391,7 +392,7 @@
             // 
             this.txtVolumen.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtVolumen.ForeColor = System.Drawing.Color.Teal;
-            this.txtVolumen.Location = new System.Drawing.Point(312, 62);
+            this.txtVolumen.Location = new System.Drawing.Point(210, 83);
             this.txtVolumen.Name = "txtVolumen";
             this.txtVolumen.Size = new System.Drawing.Size(290, 22);
             this.txtVolumen.TabIndex = 22;
@@ -401,7 +402,7 @@
             // 
             this.lblVolumen.AutoSize = true;
             this.lblVolumen.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblVolumen.ForeColor = System.Drawing.Color.Teal;
+            this.lblVolumen.ForeColor = System.Drawing.Color.MediumPurple;
             this.lblVolumen.Location = new System.Drawing.Point(95, 256);
             this.lblVolumen.Name = "lblVolumen";
             this.lblVolumen.Size = new System.Drawing.Size(31, 29);
@@ -412,8 +413,8 @@
             // 
             this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button3.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button3.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button3.Location = new System.Drawing.Point(576, 157);
+            this.button3.ForeColor = System.Drawing.Color.MediumPurple;
+            this.button3.Location = new System.Drawing.Point(293, 179);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(96, 29);
             this.button3.TabIndex = 20;
@@ -425,8 +426,8 @@
             // 
             this.label11.AutoSize = true;
             this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label11.ForeColor = System.Drawing.Color.Teal;
-            this.label11.Location = new System.Drawing.Point(300, 160);
+            this.label11.ForeColor = System.Drawing.Color.MediumPurple;
+            this.label11.Location = new System.Drawing.Point(363, 126);
             this.label11.Name = "label11";
             this.label11.Size = new System.Drawing.Size(26, 20);
             this.label11.TabIndex = 19;
@@ -436,8 +437,8 @@
             // 
             this.label12.AutoSize = true;
             this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label12.ForeColor = System.Drawing.Color.Teal;
-            this.label12.Location = new System.Drawing.Point(21, 161);
+            this.label12.ForeColor = System.Drawing.Color.MediumPurple;
+            this.label12.Location = new System.Drawing.Point(12, 126);
             this.label12.Name = "label12";
             this.label12.Size = new System.Drawing.Size(37, 20);
             this.label12.TabIndex = 18;
@@ -470,9 +471,9 @@
             "Cucharadita Imperial ",
             "Pie Cubico ",
             "Pulgada Cubica"});
-            this.cboVolumenA.Location = new System.Drawing.Point(332, 157);
+            this.cboVolumenA.Location = new System.Drawing.Point(357, 149);
             this.cboVolumenA.Name = "cboVolumenA";
-            this.cboVolumenA.Size = new System.Drawing.Size(233, 24);
+            this.cboVolumenA.Size = new System.Drawing.Size(315, 24);
             this.cboVolumenA.TabIndex = 17;
             // 
             // cboVolumenDe
@@ -502,9 +503,9 @@
             "Cucharadita Imperial ",
             "Pie Cubico ",
             "Pulgada Cubica"});
-            this.cboVolumenDe.Location = new System.Drawing.Point(64, 157);
+            this.cboVolumenDe.Location = new System.Drawing.Point(12, 149);
             this.cboVolumenDe.Name = "cboVolumenDe";
-            this.cboVolumenDe.Size = new System.Drawing.Size(230, 24);
+            this.cboVolumenDe.Size = new System.Drawing.Size(315, 24);
             this.cboVolumenDe.TabIndex = 16;
             // 
             // Almacenamiento
@@ -528,8 +529,8 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label3.ForeColor = System.Drawing.Color.Teal;
-            this.label3.Location = new System.Drawing.Point(79, 62);
+            this.label3.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.label3.Location = new System.Drawing.Point(244, 52);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(207, 20);
             this.label3.TabIndex = 31;
@@ -539,7 +540,7 @@
             // 
             this.txtAlmacenamiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtAlmacenamiento.ForeColor = System.Drawing.Color.Teal;
-            this.txtAlmacenamiento.Location = new System.Drawing.Point(308, 62);
+            this.txtAlmacenamiento.Location = new System.Drawing.Point(213, 89);
             this.txtAlmacenamiento.Name = "txtAlmacenamiento";
             this.txtAlmacenamiento.Size = new System.Drawing.Size(290, 22);
             this.txtAlmacenamiento.TabIndex = 30;
@@ -549,7 +550,7 @@
             // 
             this.lblAlmacenamiento.AutoSize = true;
             this.lblAlmacenamiento.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblAlmacenamiento.ForeColor = System.Drawing.Color.Teal;
+            this.lblAlmacenamiento.ForeColor = System.Drawing.Color.PaleVioletRed;
             this.lblAlmacenamiento.Location = new System.Drawing.Point(91, 256);
             this.lblAlmacenamiento.Name = "lblAlmacenamiento";
             this.lblAlmacenamiento.Size = new System.Drawing.Size(31, 29);
@@ -560,8 +561,8 @@
             // 
             this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button4.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button4.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button4.Location = new System.Drawing.Point(572, 157);
+            this.button4.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.button4.Location = new System.Drawing.Point(296, 187);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(96, 29);
             this.button4.TabIndex = 28;
@@ -573,8 +574,8 @@
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label10.ForeColor = System.Drawing.Color.Teal;
-            this.label10.Location = new System.Drawing.Point(296, 160);
+            this.label10.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.label10.Location = new System.Drawing.Point(366, 134);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(26, 20);
             this.label10.TabIndex = 27;
@@ -584,8 +585,8 @@
             // 
             this.label13.AutoSize = true;
             this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label13.ForeColor = System.Drawing.Color.Teal;
-            this.label13.Location = new System.Drawing.Point(17, 161);
+            this.label13.ForeColor = System.Drawing.Color.PaleVioletRed;
+            this.label13.Location = new System.Drawing.Point(12, 134);
             this.label13.Name = "label13";
             this.label13.Size = new System.Drawing.Size(37, 20);
             this.label13.TabIndex = 26;
@@ -621,9 +622,9 @@
             "Tebibyte",
             "Petabyte",
             "Petabibyte"});
-            this.cboAlmacenamientoA.Location = new System.Drawing.Point(328, 157);
+            this.cboAlmacenamientoA.Location = new System.Drawing.Point(357, 157);
             this.cboAlmacenamientoA.Name = "cboAlmacenamientoA";
-            this.cboAlmacenamientoA.Size = new System.Drawing.Size(233, 24);
+            this.cboAlmacenamientoA.Size = new System.Drawing.Size(315, 24);
             this.cboAlmacenamientoA.TabIndex = 25;
             // 
             // cboAlmacenamientoDe
@@ -656,9 +657,9 @@
             "Tebibyte",
             "Petabyte",
             "Petabibyte"});
-            this.cboAlmacenamientoDe.Location = new System.Drawing.Point(60, 157);
+            this.cboAlmacenamientoDe.Location = new System.Drawing.Point(12, 157);
             this.cboAlmacenamientoDe.Name = "cboAlmacenamientoDe";
-            this.cboAlmacenamientoDe.Size = new System.Drawing.Size(230, 24);
+            this.cboAlmacenamientoDe.Size = new System.Drawing.Size(315, 24);
             this.cboAlmacenamientoDe.TabIndex = 24;
             // 
             // Divisas
@@ -682,8 +683,8 @@
             // 
             this.label6.AutoSize = true;
             this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label6.ForeColor = System.Drawing.Color.Teal;
-            this.label6.Location = new System.Drawing.Point(79, 62);
+            this.label6.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.label6.Location = new System.Drawing.Point(229, 46);
             this.label6.Name = "label6";
             this.label6.Size = new System.Drawing.Size(207, 20);
             this.label6.TabIndex = 39;
@@ -693,7 +694,7 @@
             // 
             this.txtDivisas.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.txtDivisas.ForeColor = System.Drawing.Color.Teal;
-            this.txtDivisas.Location = new System.Drawing.Point(308, 62);
+            this.txtDivisas.Location = new System.Drawing.Point(196, 91);
             this.txtDivisas.Name = "txtDivisas";
             this.txtDivisas.Size = new System.Drawing.Size(290, 22);
             this.txtDivisas.TabIndex = 38;
@@ -703,7 +704,7 @@
             // 
             this.lblDivisas.AutoSize = true;
             this.lblDivisas.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDivisas.ForeColor = System.Drawing.Color.Teal;
+            this.lblDivisas.ForeColor = System.Drawing.Color.LightSeaGreen;
             this.lblDivisas.Location = new System.Drawing.Point(91, 256);
             this.lblDivisas.Name = "lblDivisas";
             this.lblDivisas.Size = new System.Drawing.Size(31, 29);
@@ -714,8 +715,8 @@
             // 
             this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button5.ForeColor = System.Drawing.Color.RoyalBlue;
-            this.button5.Location = new System.Drawing.Point(572, 157);
+            this.button5.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.button5.Location = new System.Drawing.Point(288, 186);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(96, 29);
             this.button5.TabIndex = 36;
@@ -727,8 +728,8 @@
             // 
             this.label15.AutoSize = true;
             this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label15.ForeColor = System.Drawing.Color.Teal;
-            this.label15.Location = new System.Drawing.Point(296, 160);
+            this.label15.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.label15.Location = new System.Drawing.Point(358, 133);
             this.label15.Name = "label15";
             this.label15.Size = new System.Drawing.Size(26, 20);
             this.label15.TabIndex = 35;
@@ -738,8 +739,8 @@
             // 
             this.label16.AutoSize = true;
             this.label16.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label16.ForeColor = System.Drawing.Color.Teal;
-            this.label16.Location = new System.Drawing.Point(17, 161);
+            this.label16.ForeColor = System.Drawing.Color.LightSeaGreen;
+            this.label16.Location = new System.Drawing.Point(12, 135);
             this.label16.Name = "label16";
             this.label16.Size = new System.Drawing.Size(37, 20);
             this.label16.TabIndex = 34;
@@ -791,9 +792,9 @@
             "Peso Cubano",
             "Sol Peruano ",
             "Yuan Chino"});
-            this.cboDivisasA.Location = new System.Drawing.Point(328, 157);
+            this.cboDivisasA.Location = new System.Drawing.Point(357, 156);
             this.cboDivisasA.Name = "cboDivisasA";
-            this.cboDivisasA.Size = new System.Drawing.Size(233, 24);
+            this.cboDivisasA.Size = new System.Drawing.Size(315, 24);
             this.cboDivisasA.TabIndex = 33;
             // 
             // cboDivisasDe
@@ -842,9 +843,9 @@
             "Peso Cubano",
             "Sol Peruano ",
             "Yuan Chino"});
-            this.cboDivisasDe.Location = new System.Drawing.Point(60, 157);
+            this.cboDivisasDe.Location = new System.Drawing.Point(12, 156);
             this.cboDivisasDe.Name = "cboDivisasDe";
-            this.cboDivisasDe.Size = new System.Drawing.Size(230, 24);
+            this.cboDivisasDe.Size = new System.Drawing.Size(315, 24);
             this.cboDivisasDe.TabIndex = 32;
             // 
             // Form1

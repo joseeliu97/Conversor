@@ -99,6 +99,9 @@ namespace Conversor
 
             cboAlmacenamientoDe.SelectedIndex = 0;
             cboAlmacenamientoA.SelectedIndex = 1;
+
+            cboDivisasDe.SelectedIndex = 0;
+            cboDivisasA.SelectedIndex = 1;
         }
 
         private void button5_Click(object sender, EventArgs e)
@@ -117,5 +120,7 @@ namespace Conversor
                 MessageBox.Show("Error en la introduccion de Datos", "Conversores", MessageBoxButtons.OK, MessageBoxIcon.Error);
             }
         }
+
+
     }
 }
